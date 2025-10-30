@@ -67,3 +67,12 @@ python addNUmber.py   # Run Addition examples
 
 - Python 3.x
 - No additional dependencies required
+
+
+<!-- CHANGELOG:START -->
+What changed
+	- Add function to add two numbers with input validation and error handling.
+	- Document test cases for addition, including invalid input scenarios.
+	- Update usage instructions to include the new addition function.
+	- Clarify requirements and error handling for both functions.
+<!-- CHANGELOG:END -->
