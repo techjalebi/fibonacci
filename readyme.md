@@ -1,1 +1,0 @@
-#the code is wriiten and "edited" by the co-pilot.
