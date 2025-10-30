@@ -24,6 +24,27 @@ result = root_number(9, 2)  # Returns 3.0
 result = root_number(27, 3) # Returns 3.0
 ```
 
+### 6. Prime Number Checker (`primeNumber.py`)
+
+The `is_prime(n)` function checks if a number is prime.
+
+```python
+is_prime(n)  # Returns True if n is prime, False otherwise
+```
+
+**Features:**
+- Input validation for integers
+- Efficient prime checking algorithm
+- Handles edge cases (0, 1, negative numbers)
+- Comprehensive error handling
+- Test cases covering various scenarios
+
+**Example Usage:**
+```python
+result = is_prime(17)  # Returns True
+result = is_prime(25)  # Returns False
+```
+
 
 
 ### 1. Fibonacci Number Calculator (`fibonacci.py`)
@@ -110,6 +131,7 @@ All functions include error handling for invalid inputs:
 - Fibonacci function checks for negative numbers
 - Addition, multiplication, and division functions validate numeric types
 - Division function also checks for division by zero
+- Prime number checker validates integer inputs and handles edge cases
 
 ## Test Cases
 
@@ -128,6 +150,8 @@ python fibonacci.py        # Run Fibonacci examples
 python addNUmber.py        # Run Addition examples
 python multiplyNumbers.py  # Run Multiplication examples
 python divideNumbers.py    # Run Division examples
+python rootNumber.py       # Run Root examples
+python primeNumber.py      # Run Prime Number examples
 ```
 
 ## Requirements
@@ -137,6 +161,11 @@ python divideNumbers.py    # Run Division examples
 
 
 <!-- CHANGELOG:START -->
+What changed on 31-October-2025 at 01:35 PM UTC
+  - Add function to check if a number is prime with input validation and error handling.
+  - Include efficient prime checking algorithm and comprehensive test cases.
+  - Add documentation for prime number validation and edge cases.
+
 What changed on 31-October-2025 at 01:30 PM UTC
   - Add function to calculate n-th root of a number with input validation and error handling.
   - Document test cases for root calculation, including invalid root degrees and negative roots.
